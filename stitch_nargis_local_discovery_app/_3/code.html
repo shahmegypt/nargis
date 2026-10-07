@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;600&amp;family=Space+Grotesk:wght@600;700&amp;family=Cairo:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-error-container": "#93000a", "on-secondary-container": "#663b00", "surface-container-lowest": "#ffffff", "inverse-primary": "#ffb4a7", "outline": "#8d716c", "on-primary-container": "#fffbff", "on-secondary-fixed-variant": "#683d00", "background": "#fef7ff", "on-primary-fixed": "#400100", "secondary-container": "#fd9d1a", "on-tertiary-fixed-variant": "#005049", "error": "#ba1a1a", "tertiary-container": "#008379", "surface-container-low": "#faf0ff", "on-secondary-fixed": "#2c1700", "secondary-fixed-dim": "#ffb86b", "surface-bright": "#fef7ff", "on-error": "#ffffff", "on-tertiary-fixed": "#00201d", "on-primary-fixed-variant": "#8c180b", "secondary": "#895100", "on-tertiary": "#ffffff", "tertiary-fixed": "#70f8e8", "outline-variant": "#e1bfb9", "inverse-surface": "#342d3e", "on-background": "#1f1928", "error-container": "#ffdad6", "secondary-fixed": "#ffdcbc", "on-tertiary-container": "#f4fffc", "on-primary": "#ffffff", "on-surface": "#1f1928", "surface-container": "#f5eaff", "surface-container-high": "#f0e4fa", "surface": "#fef7ff", "surface-container-highest": "#eadef4", "primary-fixed-dim": "#ffb4a7", "on-surface-variant": "#59413d", "primary-fixed": "#ffdad4", "surface-dim": "#e1d6eb", "surface-variant": "#eadef4", "primary": "#aa2e1e", "primary-container": "#cc4734", "tertiary": "#00685f", "on-secondary": "#ffffff", "inverse-on-surface": "#f8edff", "tertiary-fixed-dim": "#4fdbcc", "surface-tint": "#ae3120" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "space-xs": "0.25rem", "margin-lg": "3.5rem", "gutter-lg": "2rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-md": "1rem", "margin": "1rem", "margin-md": "2rem", "gutter": "1.25rem" }, fontFamily: { "label-lg": ["Space Grotesk", "Cairo"], "body-lg": ["Plus Jakarta Sans", "Cairo"], "label-md": ["Space Grotesk", "Cairo"], "display-hero": ["Epilogue", "Cairo"], "headline-lg-mobile": ["Epilogue", "Cairo"], "headline-lg": ["Epilogue", "Cairo"], "headline-md": ["Epilogue", "Cairo"], "title-md": ["Plus Jakarta Sans", "Cairo"], "body-sm": ["Plus Jakarta Sans", "Cairo"], "label-sm": ["Space Grotesk", "Cairo"], "display-hero-mobile": ["Epilogue", "Cairo"], "body-md": ["Plus Jakarta Sans", "Cairo"], "headline-sm": ["Epilogue", "Cairo"] }, fontSize: { "label-lg": ["14px", { lineHeight: "18px", letterSpacing: "0.02em", fontWeight: "600" }], "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "display-hero": ["52px", { lineHeight: "60px", letterSpacing: "-0.03em", fontWeight: "800" }], "headline-lg-mobile": ["28px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "700" }], "headline-lg": ["36px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700" }], "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600" }], "title-md": ["18px", { lineHeight: "24px", fontWeight: "600" }], "body-sm": ["13px", { lineHeight: "20px", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "display-hero-mobile": ["36px", { lineHeight: "42px", letterSpacing: "-0.02em", fontWeight: "800" }], "body-md": ["15px", { lineHeight: "24px", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;font-family:'Plus Jakarta Sans','Cairo',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-20 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="شعار النرجس | Nargis Neighborhood Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VmGwfg8q5FE9YTGoJ5mwiAXs1hZ-ema-8Kq-3N51o7XNRXb_-qFfLHndI-n2VcgE9Pn5iR0ZMY3xfC-wxRhXDyQ6VPuY5j4-ilPiCLpZvRPcwDZKVzXyalYlbY12bd-OHSc1z1d06WfInEAXU1lFLS5E-IIoMRswKf0NYjiY3zuLgDRQH-0PVtfrbPqMYArTlw_wY-CwWFvkVQ6vEyofyGtudarQqMP3xbpHY_2TB4CxgqxBDixjxWRg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">النرجس</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-none mt-0.5">دليل الحي والخدمات</span></div></div><div class="flex items-center bg-surface-container-high rounded-full p-0.5"><button class="px-2.5 py-1 rounded-full text-label-sm font-label-sm bg-surface-container-lowest text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)] transition-all" type="button">الكل</button><button class="px-2.5 py-1 rounded-full text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface transition-all" type="button">النرجس ١</button><button class="px-2.5 py-1 rounded-full text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface transition-all" type="button">النرجس ٢</button></div><div class="flex items-center gap-space-xs"><button aria-label="التنبيهات" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container transition-all" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 left-2.5 w-2 h-2 rounded-full bg-primary"></span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.08)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArFou-Y-svZhUIzt0OIESmVlkwDod1b5sDiCa5bvstj8jaAnHG7MRUH-6ReBV6wJWkLpjSmGIlmxko_rXGrp1i0Nth5sWKCdhzsa15bSDOTPeTDvIK7-PWZMEihflirJ-noPJXWy4P3YWgTR5oED9ItOlGnsRObGFuIQY4-1vpJDAcHVWLzvjF0-hwsFW1kltZruyIiMOjVcZCUrlI-QO4JfiR4zIGY8A3XqGfY0eoX615tleiM2h_"/></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-28 bg-surface"><div class="flex flex-col w-full px-space-md gap-space-lg select-none pb-12">
+<!-- Search & Segment Controls -->
+<section class="flex flex-col gap-space-md">
+<!-- Search Bar -->
+<div class="relative w-full">
+<div class="absolute inset-y-0 right-0 flex items-center pr-3.5 pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</div>
+<input class="w-full h-12 pr-11 pl-10 rounded-xl bg-surface-container-high text-on-surface placeholder:text-on-surface-variant font-body-md text-body-md outline-none transition-all shadow-sm focus:bg-surface-container-lowest focus:shadow-md" id="directory-search" placeholder="ابحث بالاسم، النشاط، أو الخدمة..." type="text"/>
+<button aria-label="مسح البحث" class="hidden absolute inset-y-0 left-0 items-center pl-3 text-on-surface-variant hover:text-on-surface" id="clear-search-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+<!-- View Mode Segmented Control -->
+<div class="flex items-center justify-between bg-surface-container-high p-1 rounded-xl shadow-sm">
+<button class="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface shadow-sm transition-all" id="btn-view-list" onclick="switchDirectoryView('list')" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">view_list</span>
+<span>قائمة الأنشطة</span>
+</button>
+<button class="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" id="btn-view-map" onclick="switchDirectoryView('map')" type="button">
+<span class="material-symbols-outlined text-[18px]">map</span>
+<span>خريطة النرجس</span>
+</button>
+</div>
+</section>
+<!-- Multi-tier Filter Bar -->
+<section class="flex flex-col gap-space-sm -mx-space-md px-space-md">
+<!-- Tier 1: Location Scope -->
+<div class="flex items-center gap-2 overflow-x-auto py-1 scroll-smooth no-scrollbar">
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-on-background text-surface-container-lowest shadow-sm transition-all active:scale-95" data-filter="location" type="button">
+        الكل
+      </button>
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-filter="location" type="button">
+        النرجس 1
+      </button>
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-filter="location" type="button">
+        النرجس 2
+      </button>
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-filter="location" type="button">
+        داخل مول الحياة (النرجس 1)
+      </button>
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-filter="location" type="button">
+        داخل مول اللؤلؤة (النرجس 2)
+      </button>
+<button class="loc-filter-chip whitespace-nowrap px-3.5 py-1.5 rounded-full font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-filter="location" type="button">
+        أنشطة ومحلات مستقلة (خارج المولات)
+      </button>
+</div>
+<!-- Tier 2: Category & Status Filters -->
+<div class="flex items-center gap-2 overflow-x-auto py-1 scroll-smooth no-scrollbar">
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-primary text-on-primary shadow-sm transition-all" data-filter="category" type="button">
+        الكل
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container transition-all" data-filter="category" type="button">
+        🍽️ مطاعم وكافيهات
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container transition-all" data-filter="category" type="button">
+        💊 صيدليات وعيادات
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container transition-all" data-filter="category" type="button">
+        🥖 مخابز
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-on-surface-variant hover:bg-surface-container transition-all" data-filter="category" type="button">
+        🛠️ حرفيون ومستقلون
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-tertiary font-bold hover:bg-surface-container transition-all" data-filter="category" type="button">
+        🟢 مفتوح الآن
+      </button>
+<button class="cat-filter-chip whitespace-nowrap px-3 py-1 rounded-lg font-label-sm text-label-sm bg-surface-container-low text-secondary font-bold hover:bg-surface-container transition-all" data-filter="category" type="button">
+        🏷️ به عروض نشطة
+      </button>
+</div>
+</section>
+<!-- Main Directory Cards Stream -->
+<div class="flex flex-col gap-space-lg" id="directory-cards-container">
+<!-- Card 1: Sponsored Feature (Capriano Trattoria) -->
+<article class="relative flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-all hover:shadow-lg">
+<div class="h-1.5 w-full bg-secondary-container"></div>
+<!-- Top Image & Badges -->
+<div class="relative w-full h-44 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Authentic Italian wood-fired pizza and pasta served on a rustic stone table inside a cozy warm-toned bistro in New Cairo, soft warm morning lighting, fresh basil, terracotta tableware and artisanal sourdough crust." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz_8Em-S8mqXHpdj5y2hiBEvYrkqHctvg_-vVxgxa7GSQbp-sCNa_qSSGSkb6lVWGiIvB7sCjEBeHCqVdFRK04yzok6inXW6iidV5LfA0iPFMEF1dAFWFhSMO5BUHdRV3RA-IPG5Vkxdu_hudQuqATUCH2gkCue2HM-fwHB4A-eOUb4P-aS1o95YljYNheSlDlBtGLsmGGR4i-xGquHEHoTgN-4nvxfZyAcJHOwVENGjTcCBlGiohV"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/85 via-inverse-surface/30 to-transparent"></div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5 bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed px-2.5 py-1 rounded-full font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified</span>
+<span>إعلان مميز • مول اللؤلؤة - النرجس 2</span>
+</div>
+<div class="absolute bottom-3 right-3 left-3 flex items-end justify-between text-on-primary-container">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary-fixed-dim">المطبخ الإيطالي الأصيل</span>
+<h2 class="font-headline-sm text-headline-sm text-surface-container-lowest drop-shadow-sm">مطعم كابريانو الإيطالي</h2>
+<span class="font-label-sm text-label-sm text-surface-container-highest opacity-90">Capriano Trattoria</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface px-2 py-0.5 rounded-full font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.8</span>
+<span class="text-on-surface-variant text-[10px]">(115)</span>
+</div>
+</div>
+</div>
+<!-- Card Details & Body -->
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1 text-tertiary font-semibold">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+            مفتوح حتى 12:00 ص
+          </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+<span class="text-[11px]">التقييمات خاصة ومحمية</span>
+</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">أطباق إيطالية وبيتزا حطب محضرة يدوياً بوصفات نابولية مميزة وعجائن معتقة.</p>
+<!-- Dynamic Special Offer Tag -->
+<div class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-container-low text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-primary">local_offer</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">عصير ترحيبي هدية مع كل وجبة رئيسية لسكان النرجس</span>
+</div>
+<!-- Badges Stack -->
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">delivery_dining</span>
+            خدمة توصيل سريعة للنرجس 1 و 2
+          </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">local_parking</span>
+            مواقف سيارات متوفرة
+          </span>
+</div>
+<!-- Action Triggers -->
+<div class="flex items-center gap-2 pt-2">
+<a class="flex-1 flex items-center justify-center gap-1.5 h-11 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-all active:scale-[0.98] hover:bg-primary-container" href="tel:+201000000001">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>اتصال</span>
+</a>
+<a aria-label="واتساب كابريانو" class="flex items-center justify-center w-11 h-11 rounded-lg bg-tertiary-container text-on-tertiary-container shadow-sm transition-all active:scale-[0.98]" href="https://wa.me/201000000001" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</a>
+<button class="flex items-center justify-center px-3.5 h-11 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md transition-all hover:bg-surface-container" onclick="openListingDetails('capriano')" type="button">
+            عرض التفاصيل
+          </button>
+</div>
+</div>
+</article>
+<!-- Card 2: Essential Service (Nargis Grand Pharmacy) -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="flex flex-row p-space-md gap-space-md">
+<!-- Thumbnail -->
+<div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 relative">
+<img class="w-full h-full object-cover" data-alt="Modern upscale neighborhood pharmacy interior in New Cairo with bright clean aesthetic shelves of wellness products, organized prescription counters, warm timber touches, and friendly clinic lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUB2wp4yHPCLSsRvwAw3znuDO3PF6TspE_wTZkq1W3gD3NiFbFA-8T_MBRvNfl8UZ_SCRndVhSJ5dbFdfszNnAe9xgkkQfzlCV-NSCBc0vO6lbnNWqH-W5DyT0HsXdR-O7YZu2qZ0L7T2e2y_xlEaysK0IXabfCN_IblCVsPrsr_hBnukLLUmDsK1QdCfm4AYcL8mNMDHDK-GLdGNMBVaohtTCj6uUF9YkkKL4YgXgpwn72VErl2Hm"/>
+<span class="absolute top-1 right-1 px-1.5 py-0.5 rounded bg-tertiary text-on-tertiary text-[9px] font-bold">24 س</span>
+</div>
+<!-- Info Column -->
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div class="flex flex-col">
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">النرجس 1 • شارع 15</span>
+<div class="flex items-center gap-0.5 text-secondary-container">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">4.9</span>
+<span class="text-on-surface-variant text-[10px]">(210)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate mt-0.5">صيدلية النرجس الكبرى</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">صيدلية وخدمات قياس الضغط والسكر</p>
+</div>
+<div class="flex items-center gap-1.5 text-tertiary font-label-sm text-label-sm pt-1 truncate">
+<span class="material-symbols-outlined text-[15px]">electric_moped</span>
+<span>توصيل منزلي مجاني داخل الحي</span>
+</div>
+</div>
+</div>
+<!-- Quick Action Toolbar -->
+<div class="flex items-center justify-between px-space-md py-2.5 bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant">متواجد صيدلي استشاري الآن</span>
+<div class="flex items-center gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1 hover:bg-surface-container transition-all" href="https://wa.me/201000000002">
+<span class="material-symbols-outlined text-[15px] text-tertiary">chat</span>
+            طلب دواء
+          </a>
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm flex items-center gap-1 transition-all active:scale-95" href="tel:+201000000002">
+<span class="material-symbols-outlined text-[15px]">call</span>
+            اتصال
+          </a>
+</div>
+</div>
+</article>
+<!-- Card 3: Freelancer Specialist (Eng. Youssef El Sawi) -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-3">
+<div class="relative w-14 h-14 rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Portrait of an approachable, certified Egyptian HVAC and appliance maintenance engineer smiling confidently, wearing a clean professional workshop uniform against an organized tool background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_XABr9_RLgBh8I2AgfARafNeAisW4R0KEDpblPv9D89EcuEm3f2V2tCL5tLX5J7uRPtoF0xNO5xAZm6MV25ZWfq65nrPDnx7rVpI7G_nRsj7xwYebickPLZr9k8Y6YApB4fohXtJ3625TeJYnrNVVI854tZK3pslJXXsrSDk72zf9vLBGKzNZhQ2i2BzE2pn6F225jItGeC96CUD6cr39pZSI1UJdOVE6AFPbj0CA8EFFqiV3zA9C"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-tertiary border-2 border-surface-container-lowest"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+                  مستقل / عمل حر
+                </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">النرجس 2</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-0.5">م. يوسف الصاوي</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">فني تكييف وأجهزة منزلية معتمد</span>
+</div>
+</div>
+<div class="flex items-center gap-0.5 bg-surface-container-low px-2 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[14px] text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">4.7</span>
+<span class="text-on-surface-variant text-[10px]">(42)</span>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">home_repair_service</span>
+<span>متاح للزيارات المنزلية والكشف الفوري يومياً</span>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">ضمان 60 يوماً على قطع الغيار</span>
+<div class="flex items-center gap-2">
+<a class="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm" href="https://wa.me/201000000003">
+<span class="material-symbols-outlined text-[15px] text-tertiary">chat</span>
+              استفسار
+            </a>
+<a class="flex items-center gap-1 px-3.5 py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md active:scale-95" href="tel:+201000000003">
+              حجز موعد
+            </a>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 4: Beauty & Salon (Bella La Donna) -->
+<article class="flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="relative w-full h-32 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Elegant luxury hair and beauty salon for women in New Cairo, featuring warm beige arches, bronze mirrors, soft studio vanity lighting, aesthetic rose gold accents, and serene interior design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnXjgQxFE-pF5_ebU-urcfiJRVhcL7zgPESGmSDAKgqpV1oboAby9paW82P03xIaU_Q_ZRqmHcRlT575lg-k-SD2Xkte1-4UvzutmvblvVgstjYPqARTF0X3kpyKzTVgwa3MyzNr-BHgN6uk45TIncYe34LjmHhoobN63LQQ6XDM_SHcgvL4GfHEJt3Cw27jrmhEuRYxCc4mBg513mmGB7PLWvzohVJu0nLnppSY9j1q7Ch7T7xWle"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 right-3 px-2.5 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+          مول الحياة • الطابق الأول
+        </div>
+<div class="absolute bottom-2.5 right-3 left-3 flex items-center justify-between text-surface-container-lowest">
+<h3 class="font-headline-sm text-headline-sm drop-shadow-sm">كوافير وصالون بيلا لادونا</h3>
+<div class="flex items-center gap-1 bg-inverse-surface/80 px-2 py-0.5 rounded-full text-surface-container-lowest font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-secondary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.6</span>
+<span class="text-[10px] text-surface-variant">(68)</span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">عناية بالشعر، أظافر، وتجميل للسيدات</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">حجز مسبق</span>
+</div>
+<div class="flex items-center justify-end gap-2 pt-1">
+<a class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm flex items-center gap-1 hover:bg-surface-container" href="tel:+201000000004">
+<span class="material-symbols-outlined text-[16px]">call</span>
+            مكالمة
+          </a>
+<button class="px-4 py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-all active:scale-95" type="button">
+            عرض قائمة الأسعار
+          </button>
+</div>
+</div>
+</article>
+</div>
+<!-- Interactive Map Preview Bottom Sheet widget -->
+<section class="mt-space-sm flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md">
+<div class="p-space-md flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-headline-sm text-on-surface">استكشاف مراكز النرجس الحيوية</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">النرجس 1 (مول الحياة) • النرجس 2 (مول اللؤلؤة)</span>
+</div>
+</div>
+<button aria-label="توسيع الخريطة" class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface transition-transform duration-300" id="btn-expand-map" onclick="toggleMapDrawer()" type="button">
+<span class="material-symbols-outlined text-[20px]" id="map-drawer-icon">expand_more</span>
+</button>
+</div>
+<!-- Map Graphic Visual Container -->
+<div class="relative w-full h-52 bg-surface-container transition-all duration-300 overflow-hidden" id="interactive-map-area">
+<!-- Location Anchor for Static Pipeline -->
+<div class="w-full h-full bg-cover bg-center" data-location="Al Narges, New Cairo, Egypt" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCYdMrkK9Yi1efY7si2EMmITInlikATyzwBSiAnN35BCRKBfKA53rvO7FAsq2qq0QxdC7NxIiPQNkIa9DnqYTGTkJIH0F1jK5nNAVkvxejKtzWBME6OlEAupyNjHZiGQKzIrOL7TNEAnLe-slGXlpf6u9u_XWyCmc6dcSXb2qAidvvNEapRhsB98AnotvtdbO1e95AVRplp3j6Nxy8QdufSshIiPsuT9FSV4ppNU-sOy70Jc4u_5dni')"></div>
+<!-- Stylized Community Zone Overlays & Interactive Pins -->
+<div class="absolute inset-0 bg-inverse-surface/20 pointer-events-none"></div>
+<!-- Zone 1: Nargis 1 + Mall Al-Hayah Pin -->
+<div class="absolute top-6 right-8 flex flex-col items-center cursor-pointer group" onclick="highlightZone('nargis-1')">
+<div class="flex items-center gap-1 bg-surface-container-lowest/95 backdrop-blur-sm px-2.5 py-1 rounded-full shadow-md text-on-surface text-[11px] font-bold group-hover:scale-105 transition-all">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+          مول الحياة (النرجس 1)
+        </div>
+<span class="material-symbols-outlined text-primary text-[28px] drop-shadow-md -mt-1" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<!-- Zone 2: Nargis 2 + Mall Al-Lo'loa Pin -->
+<div class="absolute bottom-7 left-10 flex flex-col items-center cursor-pointer group" onclick="highlightZone('nargis-2')">
+<div class="flex items-center gap-1 bg-surface-container-lowest/95 backdrop-blur-sm px-2.5 py-1 rounded-full shadow-md text-on-surface text-[11px] font-bold group-hover:scale-105 transition-all">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+          مول اللؤلؤة (النرجس 2)
+        </div>
+<span class="material-symbols-outlined text-secondary text-[28px] drop-shadow-md -mt-1" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<!-- Live Floating Legend -->
+<div class="absolute bottom-2 right-2 bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-lg shadow-sm flex items-center gap-3 text-[10px] font-label-sm text-on-surface">
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+          النرجس 1 (فيلات وعمارات)
+        </span>
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+          النرجس 2 ومحور جمال عبدالناصر
+        </span>
+</div>
+</div>
+<!-- Collapsible Drawer Context -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-between" id="map-drawer-content">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[20px]">pin_drop</span>
+<span class="font-body-sm text-body-sm text-on-surface">محدد حالياً: جميع الأنشطة الموثقة داخل وخارج المجمعات التجارية</span>
+</div>
+<button class="px-3 py-1 rounded-md bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:text-primary transition-all whitespace-nowrap" onclick="switchDirectoryView('map')" type="button">
+        فتح شاشة كاملة
+      </button>
+</div>
+</section>
+<!-- Community Submission / Add Activity Floating Prompt -->
+<section class="mt-space-sm p-space-md rounded-2xl bg-surface-container-high flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">لديك عمل تجاري أو تقدم خدمة بالنرجس؟</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">انضم لدليل الحي لتصل لكل جيرانك في دقائق.</span>
+</div>
+<button class="px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm whitespace-nowrap active:scale-95 transition-all" type="button">
+      أضف نشاطك
+    </button>
+</section>
+</div>
+<!-- Inline Interaction Behavior -->
+<script>
+  // Search Input Behavior
+  const searchInput = document.getElementById('directory-search');
+  const clearBtn = document.getElementById('clear-search-btn');
+
+  if (searchInput && clearBtn) {
+    searchInput.addEventListener('input', (e) => {
+      if (e.target.value.trim().length > 0) {
+        clearBtn.classList.remove('hidden');
+        clearBtn.classList.add('flex');
+      } else {
+        clearBtn.classList.add('hidden');
+        clearBtn.classList.remove('flex');
+      }
+      filterCardsBySearch(e.target.value.trim().toLowerCase());
+    });
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      clearBtn.classList.add('hidden');
+      clearBtn.classList.remove('flex');
+      filterCardsBySearch('');
+      searchInput.focus();
+    });
+  }
+
+  function filterCardsBySearch(term) {
+    const cards = document.querySelectorAll('#directory-cards-container article');
+    cards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      if (!term || text.includes(term)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Location Chips Toggle
+  const locChips = document.querySelectorAll('.loc-filter-chip');
+  locChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      locChips.forEach(c => {
+        c.classList.remove('bg-on-background', 'text-surface-container-lowest');
+        c.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      chip.classList.add('bg-on-background', 'text-surface-container-lowest');
+      chip.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+    });
+  });
+
+  // Category Chips Toggle
+  const catChips = document.querySelectorAll('.cat-filter-chip');
+  catChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      catChips.forEach(c => {
+        c.classList.remove('bg-primary', 'text-on-primary');
+        c.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+      });
+      chip.classList.add('bg-primary', 'text-on-primary');
+      chip.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+    });
+  });
+
+  // View Switcher (List vs Map)
+  function switchDirectoryView(mode) {
+    const listBtn = document.getElementById('btn-view-list');
+    const mapBtn = document.getElementById('btn-view-map');
+    const cardsContainer = document.getElementById('directory-cards-container');
+    const mapArea = document.getElementById('interactive-map-area');
+
+    if (mode === 'map') {
+      mapBtn.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      mapBtn.classList.remove('text-on-surface-variant');
+      listBtn.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      listBtn.classList.add('text-on-surface-variant');
+
+      if (mapArea) {
+        mapArea.classList.remove('h-52');
+        mapArea.classList.add('h-96');
+        mapArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    } else {
+      listBtn.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      listBtn.classList.remove('text-on-surface-variant');
+      mapBtn.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      mapBtn.classList.add('text-on-surface-variant');
+
+      if (mapArea) {
+        mapArea.classList.remove('h-96');
+        mapArea.classList.add('h-52');
+      }
+      if (cardsContainer) {
+        cardsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+
+  // Interactive Map Drawer Toggle
+  let isMapExpanded = true;
+  function toggleMapDrawer() {
+    const mapArea = document.getElementById('interactive-map-area');
+    const icon = document.getElementById('map-drawer-icon');
+    const drawerContent = document.getElementById('map-drawer-content');
+
+    isMapExpanded = !isMapExpanded;
+    if (isMapExpanded) {
+      mapArea.style.display = 'block';
+      drawerContent.style.display = 'flex';
+      icon.textContent = 'expand_more';
+    } else {
+      mapArea.style.display = 'none';
+      drawerContent.style.display = 'none';
+      icon.textContent = 'expand_less';
+    }
+  }
+
+  // Zone Highlight Feedback
+  function highlightZone(zoneId) {
+    const msg = zoneId === 'nargis-1' ? 'تم اختيار نطاق: مول الحياة - النرجس 1' : 'تم اختيار نطاق: مول اللؤلؤة - النرجس 2';
+    const drawerText = document.querySelector('#map-drawer-content span.text-body-sm');
+    if (drawerText) {
+      drawerText.textContent = msg;
+    }
+  }
+
+  // Details trigger placeholder
+  function openListingDetails(slug) {
+    console.log('Opening business listing: ' + slug);
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(26,20,35,0.05)]" data-active-classes="text-primary font-label-md"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 w-14 h-14 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home-discovery" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm">الرئيسية</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 w-14 h-14 transition-colors text-primary font-label-md" data-path="explore-directory" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm">استكشف</span></a><a class="flex flex-col items-center justify-center gap-0.5 w-14 h-14 text-on-surface-variant hover:text-on-surface transition-colors" data-path="business-workspace" href="#"><span class="material-symbols-outlined text-[24px]">storefront</span><span class="font-label-sm text-label-sm">أعمالي</span></a><a class="flex flex-col items-center justify-center gap-0.5 w-14 h-14 text-on-surface-variant hover:text-on-surface transition-colors" data-path="maintenance-services" href="#"><span class="material-symbols-outlined text-[24px]">handyman</span><span class="font-label-sm text-label-sm">الصيانة</span></a><a class="flex flex-col items-center justify-center gap-0.5 w-14 h-14 text-on-surface-variant hover:text-on-surface transition-colors" data-path="admin-console" href="#"><span class="material-symbols-outlined text-[24px]">admin_panel_settings</span><span class="font-label-sm text-label-sm">الإدارة</span></a></div></nav></body></html>

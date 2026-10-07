@@ -1,0 +1,14 @@
+{
+  "name": "النرجس | دليل الحي والعروض",
+  "short_name": "النرجس",
+  "description": "اكتشف أنشطة وعروض النرجس 1 و2",
+  "lang": "ar-EG",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf9f6",
+  "theme_color": "#4b3851",
+  "icons": [
+    { "src": "/brand/nargis-logo.png", "sizes": "any", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
