@@ -4,4 +4,5 @@ dist/
 .env.*
 !.env.example
 .wrangler/
+supabase/.temp/
 .DS_Store
